@@ -93,7 +93,6 @@
         .tituloLemaEmpresa{
             font-style: italic; /*clase .lemaEmpresa*/
             font-weight: bold;
-            color: azure;
             text-align: end;
             position:static;
             
@@ -103,13 +102,13 @@
             h1{
                 text-align: end;
                 font-size: 25px;
-                color: $colorLema600;
+                color: $colorLema;
             }
             
             .lemaEmpresa{
                 font-style: italic; /*clase .lemaEmpresa*/
                 font-weight: bold;
-                color: $colorLema600;
+                color: $colorLema;
                 text-align: end;
             }
         }
@@ -161,6 +160,8 @@
             .noVisible{
                 display: none; 
             }
+
+           
         }
 
         .sectionNoticias{
@@ -344,7 +345,7 @@
         padding: 10px 10px 10px 10px;
         background-image: map-get($map: $sobreNosotros, $key: imgSobreNosotros);       
         background-repeat: no-repeat;
-        background-size: 700px 900px ;
+        background-size: 900px 900px ;
 
         .logoMenu{
             @include flexColumn;
@@ -399,19 +400,18 @@
         .tituloLemaEmpresa{
             font-style: italic; /*clase .lemaEmpresa*/
             font-weight: bold;
-            color: azure;
             text-align: end;
 
             h1{
                 text-align: end;
                 font-size: 25px;
-                color: $colorLema600;
+                color: $colorLema;
             }
             
             .lemaEmpresa{
                 font-style: italic; /*clase .lemaEmpresa*/
                 font-weight: bold;
-                color: $colorLema600;
+                color: $colorLema;
                 text-align: end;
             }
         }
@@ -457,6 +457,7 @@
 
         .tituloValores{
             text-align: center;
+            text-decoration: solid underline;
         }
 
         .layoutValores{
@@ -538,19 +539,18 @@
         .tituloLemaEmpresa{
             font-style: italic; /*clase .lemaEmpresa*/
             font-weight: bold;
-            color: azure;
             text-align: end;
 
             h1{
                 text-align: end;
                 font-size: 25px;
-                color: $colorLema600;
+                color: $colorLema;
             }
             
             .lemaEmpresa{
                 font-style: italic; /*clase .lemaEmpresa*/
                 font-weight: bold;
-                color: $colorLema600;
+                color: $colorLema;
                 text-align: end;
             }
         }
@@ -598,7 +598,7 @@
         padding: 10px 10px 10px 10px;
         background-image: map-get($map: $industrias, $key: imgIndustrias);       
         background-repeat: no-repeat;
-        background-size: 700px 900px ;
+        background-size: 800px 850px ;
 
         .logoMenu{
             @include flexColumn;
@@ -651,21 +651,19 @@
         }
 
         .tituloLemaEmpresa{
-            font-style: italic; /*clase .lemaEmpresa*/
             font-weight: bold;
-            color: azure;
             text-align: end;
 
             h1{
                 text-align: end;
                 font-size: 25px;
-                color: $colorLema600;
+                color: $colorLema;
             }
             
             .lemaEmpresa{
-                font-style: italic; /*clase .lemaEmpresa*/
+
                 font-weight: bold;
-                color: $colorLema600;
+                color: $colorLema;
                 text-align: end;
             }
         }
@@ -708,7 +706,8 @@
         grid-area: header;
         background-image: map-get($map: $contacto, $key: imgContacto);
         background-repeat: no-repeat;
-        background-size: 600px 900px;
+        background-position: center;
+        background-size: 550px 700px;
         
 
         .logoMenu{
@@ -761,21 +760,20 @@
         }
 
         .tituloLemaEmpresa{
-            font-style: italic; /*clase .lemaEmpresa*/
             font-weight: bold;
-            color: azure;
             text-align: end;
+            margin-bottom: 50px;
 
             h1{
                 text-align: end;
                 font-size: 25px;
-                color: $colorLema600;
+                color: $colorLema;
             }
             
             .lemaEmpresa{
                 font-style: italic; /*clase .lemaEmpresa*/
                 font-weight: bold;
-                color: $colorLema600;
+                color: $colorLema;
                 text-align: end;
             }
         }

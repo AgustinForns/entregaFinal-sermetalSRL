@@ -76,7 +76,6 @@
       .contenedor header .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor header .tituloLemaEmpresa h1 {
@@ -256,7 +255,6 @@
       .contenedor .headerSobreNosotros .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa h1 {
@@ -299,7 +297,8 @@
         padding: 10px 30px 30px 30px;
         margin: 10px; }
       .contenedor main .baseCajaMisionVision .tituloValores {
-        text-align: center; }
+        text-align: center;
+        text-decoration: underline; }
       .contenedor main .baseCajaMisionVision .layoutValores {
         display: flex;
         flex-direction: row;
@@ -359,7 +358,6 @@
       .contenedor .headerServicios .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerServicios .tituloLemaEmpresa h1 {
@@ -437,7 +435,6 @@
       .contenedor .headerIndustrias .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerIndustrias .tituloLemaEmpresa h1 {
@@ -515,7 +512,6 @@
       .contenedor .headerContacto .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerContacto .tituloLemaEmpresa h1 {
@@ -625,7 +621,6 @@
       .contenedor header .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor header .tituloLemaEmpresa h1 {
@@ -654,7 +649,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 10px 50px 10px 50px; }
+        margin: 10px 30px 10px 30px; }
         .contenedor main .sectionImgPresentacion .imgPresentacion {
           margin: 10px;
           width: 300px;
@@ -793,7 +788,6 @@
       .contenedor .headerSobreNosotros .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa h1 {
@@ -836,7 +830,8 @@
         padding: 10px 30px 30px 30px;
         margin: 10px; }
       .contenedor .baseCajaMisionVision .tituloValores {
-        text-align: center; }
+        text-align: center;
+        text-decoration: underline; }
       .contenedor .baseCajaMisionVision .layoutValores {
         display: flex;
         flex-direction: row;
@@ -893,7 +888,6 @@
       .contenedor .headerServicios .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerServicios .tituloLemaEmpresa h1 {
@@ -1042,7 +1036,6 @@
       .contenedor .headerContacto .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerContacto .tituloLemaEmpresa h1 {
@@ -1144,18 +1137,17 @@
       font-style: italic;
       /*clase .lemaEmpresa*/
       font-weight: bold;
-      color: azure;
       text-align: end;
       position: static; }
       .contenedor header .tituloLemaEmpresa h1 {
         text-align: end;
         font-size: 25px;
-        color: white; }
+        color: azure; }
       .contenedor header .tituloLemaEmpresa .lemaEmpresa {
         font-style: italic;
         /*clase .lemaEmpresa*/
         font-weight: bold;
-        color: white;
+        color: azure;
         text-align: end; }
   .contenedor .espacioBlanco1 {
     grid-area: espacioBlanco1;
@@ -1291,7 +1283,7 @@
     padding: 10px 10px 10px 10px;
     background-image: url("../img/Perspectiva.jpg");
     background-repeat: no-repeat;
-    background-size: 700px 900px; }
+    background-size: 900px 900px; }
     .contenedor .headerSobreNosotros .logoMenu {
       display: flex;
       flex-direction: column;
@@ -1327,17 +1319,16 @@
       font-style: italic;
       /*clase .lemaEmpresa*/
       font-weight: bold;
-      color: azure;
       text-align: end; }
       .contenedor .headerSobreNosotros .tituloLemaEmpresa h1 {
         text-align: end;
         font-size: 25px;
-        color: white; }
+        color: azure; }
       .contenedor .headerSobreNosotros .tituloLemaEmpresa .lemaEmpresa {
         font-style: italic;
         /*clase .lemaEmpresa*/
         font-weight: bold;
-        color: white;
+        color: azure;
         text-align: end; }
   .contenedor .baseCajaHistoria {
     display: flex;
@@ -1364,7 +1355,8 @@
       margin-top: 10px;
       margin-bottom: 10px; }
     .contenedor .baseCajaMisionVision .tituloValores {
-      text-align: center; }
+      text-align: center;
+      text-decoration: solid underline; }
     .contenedor .baseCajaMisionVision .layoutValores .layoutInfoValores .infoCajasInformacion {
       margin: 15px;
       text-align: center; }
@@ -1409,17 +1401,16 @@
       font-style: italic;
       /*clase .lemaEmpresa*/
       font-weight: bold;
-      color: azure;
       text-align: end; }
       .contenedor .headerServicios .tituloLemaEmpresa h1 {
         text-align: end;
         font-size: 25px;
-        color: white; }
+        color: azure; }
       .contenedor .headerServicios .tituloLemaEmpresa .lemaEmpresa {
         font-style: italic;
         /*clase .lemaEmpresa*/
         font-weight: bold;
-        color: white;
+        color: azure;
         text-align: end; }
   .contenedor .layout .layoutServicios .cajaServicios {
     display: flex;
@@ -1440,7 +1431,7 @@
     padding: 10px 10px 10px 10px;
     background-image: url("../img/industrias.jpg");
     background-repeat: no-repeat;
-    background-size: 700px 900px; }
+    background-size: 800px 850px; }
     .contenedor .headerIndustrias .logoMenu {
       display: flex;
       flex-direction: column;
@@ -1473,20 +1464,15 @@
             .contenedor .headerIndustrias .logoMenu .menu ul li .botonNavPrincipal:hover {
               color: white; }
     .contenedor .headerIndustrias .tituloLemaEmpresa {
-      font-style: italic;
-      /*clase .lemaEmpresa*/
       font-weight: bold;
-      color: azure;
       text-align: end; }
       .contenedor .headerIndustrias .tituloLemaEmpresa h1 {
         text-align: end;
         font-size: 25px;
-        color: white; }
+        color: azure; }
       .contenedor .headerIndustrias .tituloLemaEmpresa .lemaEmpresa {
-        font-style: italic;
-        /*clase .lemaEmpresa*/
         font-weight: bold;
-        color: white;
+        color: azure;
         text-align: end; }
   .contenedor .layoutIndustrias {
     display: flex;
@@ -1508,7 +1494,8 @@
     grid-area: header;
     background-image: url("../img/entrada.jpg");
     background-repeat: no-repeat;
-    background-size: 600px 900px; }
+    background-position: center;
+    background-size: 550px 700px; }
     .contenedor .headerContacto .logoMenu {
       display: flex;
       flex-direction: column;
@@ -1541,20 +1528,18 @@
             .contenedor .headerContacto .logoMenu .menu ul li .botonNavPrincipal:hover {
               color: white; }
     .contenedor .headerContacto .tituloLemaEmpresa {
-      font-style: italic;
-      /*clase .lemaEmpresa*/
       font-weight: bold;
-      color: azure;
-      text-align: end; }
+      text-align: end;
+      margin-bottom: 50px; }
       .contenedor .headerContacto .tituloLemaEmpresa h1 {
         text-align: end;
         font-size: 25px;
-        color: white; }
+        color: azure; }
       .contenedor .headerContacto .tituloLemaEmpresa .lemaEmpresa {
         font-style: italic;
         /*clase .lemaEmpresa*/
         font-weight: bold;
-        color: white;
+        color: azure;
         text-align: end; }
   .contenedor .baseCajasInformacion1 {
     display: flex;
@@ -1649,7 +1634,6 @@
       .contenedor header .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor header .tituloLemaEmpresa h1 {
@@ -1829,7 +1813,6 @@
       .contenedor .headerSobreNosotros .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa h1 {
@@ -1872,7 +1855,8 @@
         padding: 10px 30px 30px 30px;
         margin: 10px; }
       .contenedor main .baseCajaMisionVision .tituloValores {
-        text-align: center; }
+        text-align: center;
+        text-decoration: underline; }
       .contenedor main .baseCajaMisionVision .layoutValores {
         display: flex;
         flex-direction: row;
@@ -1932,7 +1916,6 @@
       .contenedor .headerServicios .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerServicios .tituloLemaEmpresa h1 {
@@ -2010,7 +1993,6 @@
       .contenedor .headerIndustrias .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerIndustrias .tituloLemaEmpresa h1 {
@@ -2088,7 +2070,6 @@
       .contenedor .headerContacto .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 100px;
         margin-right: 30px; }
         .contenedor .headerContacto .tituloLemaEmpresa h1 {
@@ -2198,7 +2179,6 @@
       .contenedor header .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor header .tituloLemaEmpresa h1 {
@@ -2227,7 +2207,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 10px 50px 10px 50px; }
+        margin: 10px 30px 10px 30px; }
         .contenedor main .sectionImgPresentacion .imgPresentacion {
           margin: 10px;
           width: 300px;
@@ -2366,7 +2346,6 @@
       .contenedor .headerSobreNosotros .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa h1 {
@@ -2409,7 +2388,8 @@
         padding: 10px 30px 30px 30px;
         margin: 10px; }
       .contenedor .baseCajaMisionVision .tituloValores {
-        text-align: center; }
+        text-align: center;
+        text-decoration: underline; }
       .contenedor .baseCajaMisionVision .layoutValores {
         display: flex;
         flex-direction: row;
@@ -2466,7 +2446,6 @@
       .contenedor .headerServicios .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerServicios .tituloLemaEmpresa h1 {
@@ -2615,7 +2594,6 @@
       .contenedor .headerContacto .tituloLemaEmpresa {
         font-size: 15px;
         text-align: end;
-        color: aliceblue;
         margin-bottom: 150px;
         margin-right: 50px; }
         .contenedor .headerContacto .tituloLemaEmpresa h1 {

@@ -86,20 +86,19 @@
             .tituloLemaEmpresa{
                 font-size: 15px;
                 text-align: end;
-                color: aliceblue;
                 margin-bottom: 150px;
                 margin-right: 50px;
 
                 h1{
                     text-align: end;
                     font-size: 40px;
-                    color: azure;
+                    color: $colorLema;
                 }
                 
                 .lemaEmpresa{
                     font-style: italic; /*clase .lemaEmpresa*/
                     font-weight: bold;
-                    color: azure;
+                    color: $colorLema;
                     text-align: end;
                 }
             }
@@ -134,7 +133,7 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-                margin: 10px 50px 10px 50px;
+                margin: 10px 30px 10px 30px;
 
                 .imgPresentacion{
                     margin: 10px; 
@@ -151,6 +150,7 @@
                     display: inline-block;
                 }
 
+               
             
             }
 
@@ -360,20 +360,19 @@
             .tituloLemaEmpresa{
                 font-size: 15px;
                 text-align: end;
-                color: aliceblue;
                 margin-bottom: 150px;
                 margin-right: 50px;
 
                 h1{
                     text-align: end;
                     font-size: 40px;
-                    color: azure;
+                    color: $colorLema;
                 }
                 
                 .lemaEmpresa{
                     font-style: italic; /*clase .lemaEmpresa*/
                     font-weight: bold;
-                    color: azure;
+                    color: $colorLema;
                     text-align: end;
                 }
             }
@@ -420,6 +419,7 @@
 
             .tituloValores{
                 text-align: center;
+                text-decoration: underline;
             }
 
             .layoutValores{
@@ -508,20 +508,19 @@
             .tituloLemaEmpresa{
                 font-size: 15px;
                 text-align: end;
-                color: aliceblue;
                 margin-bottom: 150px;
                 margin-right: 50px;
 
                 h1{
                     text-align: end;
                     font-size: 40px;
-                    color: azure;
+                    color: $colorLema;
                 }
                 
                 .lemaEmpresa{
                     font-style: italic; /*clase .lemaEmpresa*/
                     font-weight: bold;
-                    color: azure;
+                    color: $colorLema;
                     text-align: end;
                 }
             }
@@ -632,13 +631,13 @@
                 h1{
                     text-align: end;
                     font-size: 40px;
-                    color: azure;
+                    color: $colorLema;
                 }
                 
                 .lemaEmpresa{
                     font-style: italic; /*clase .lemaEmpresa*/
                     font-weight: bold;
-                    color: azure;
+                    color: $colorLema;
                     text-align: end;
                 }
             }
@@ -742,20 +741,19 @@
             .tituloLemaEmpresa{
                 font-size: 15px;
                 text-align: end;
-                color: aliceblue;
                 margin-bottom: 150px;
                 margin-right: 50px;
 
                 h1{
                     text-align: end;
                     font-size: 40px;
-                    color: azure;
+                    color: $colorLema;
                 }
                 
                 .lemaEmpresa{
                     font-style: italic; /*clase .lemaEmpresa*/
                     font-weight: bold;
-                    color: azure;
+                    color: $colorLema;
                     text-align: end;
                 }
             }
