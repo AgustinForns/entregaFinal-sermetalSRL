@@ -7,8 +7,7 @@
 @import "scss/utilities/estilos1024";
 
 
-
-
+$vista: "mobile";
 
 .contenedor{
     display: grid;
@@ -35,16 +34,22 @@
         background-position: center;
         background-repeat: no-repeat;
 
-        
-       
-        
-        
 
         .logoMenu{
             @include flexColumn;
-            margin-top: 0px;
+           /*  margin-top: 0px;
             margin-bottom: 5rem;
-            height: 30rem;
+            height: 30rem; */ 
+            @if $vista == mobile {
+                @include logoMenu;
+            } @else if $vista == tablet{
+                @include logoMenu600;
+            } @else if $vista == desktop{
+                @include logoMenu1024;
+            }
+ 
+            
+
 
             .logo{
                 text-align: center; /*clase .logo*/
@@ -73,16 +78,7 @@
                             }
                         
                     .botonNavPrincipal{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 1.5rem;
-                        background-color: rgb(17, 18, 19);
-                        border: 2px solid gray;
-                        border-radius: 100px;
-                        padding: 10px;
-                        &:hover{
-                            color: white;                    
-                                }
+                        @include estiloBoton;
                         
                     }
                 }
@@ -91,22 +87,21 @@
         }
 
         .tituloLemaEmpresa{
-            font-style: italic; /*clase .lemaEmpresa*/
-            font-weight: bold;
-            text-align: end;
+            @include cajaLema;
             position:static;
+            margin-bottom: 50px;
             
            
            
 
             h1{
                 text-align: end;
-                font-size: 25px;
+                font-size: $sizeEncabezado;
                 color: $colorLema;
             }
             
             .lemaEmpresa{
-                font-style: italic; /*clase .lemaEmpresa*/
+                font-style: italic; 
                 font-weight: bold;
                 color: $colorLema;
                 text-align: end;
@@ -259,8 +254,6 @@
                     justify-content: center;
 
                     .imgLogos{
-                    /*  width: 7rem;
-                    height: auto; */
                     border: 1px solid gray;
                     margin: 3px;
                     }
@@ -338,7 +331,7 @@
     /*sobre nosotros*/
 
     /*header sobre nosotros*/
-
+    $vista: mobile;
 
     .headerSobreNosotros{
         grid-area: header;
@@ -349,11 +342,16 @@
 
         .logoMenu{
             @include flexColumn;
-            margin-top: 0px;
-            margin-bottom: 5rem;
+            @if $vista == mobile {
+                @include logoMenu;
+            } @else if $vista == tablet{
+                @include logoMenu600;
+            } @else if $vista == desktop{
+                @include logoMenu1024;
+            }
 
             .logo{
-                text-align: center; /*clase .logo*/
+                text-align: center; 
 
 
             
@@ -381,35 +379,23 @@
                             }
                         
                     .botonNavPrincipal{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 1.5rem;
-                        background-color: rgb(17, 18, 19);
-                        border: 2px solid gray;
-                        border-radius: 100px;
-                        padding: 10px;
-                        &:hover{
-                            color: white;                    
-                                }
-                        
+                        @include estiloBoton;
                     }
                 }
             }
         }
 
         .tituloLemaEmpresa{
-            font-style: italic; /*clase .lemaEmpresa*/
-            font-weight: bold;
-            text-align: end;
+            @include cajaLema;
 
             h1{
                 text-align: end;
-                font-size: 25px;
+                font-size: $sizeEncabezado;
                 color: $colorLema;
             }
             
             .lemaEmpresa{
-                font-style: italic; /*clase .lemaEmpresa*/
+                font-style: italic; 
                 font-weight: bold;
                 color: $colorLema;
                 text-align: end;
@@ -488,8 +474,14 @@
 
         .logoMenu{
             @include flexColumn;
-            margin-top: 0px;
-            margin-bottom: 5rem;
+            @if $vista == mobile {
+                @include logoMenu;
+            } @else if $vista == tablet{
+                @include logoMenu600;
+            } @else if $vista == desktop{
+                @include logoMenu1024;
+            }
+
 
             .logo{
                 text-align: center; /*clase .logo*/
@@ -520,16 +512,7 @@
                             }
                         
                     .botonNavPrincipal{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 1.5rem;
-                        background-color: rgb(17, 18, 19);
-                        border: 2px solid gray;
-                        border-radius: 100px;
-                        padding: 10px;
-                        &:hover{
-                            color: white;                    
-                                }
+                        @include estiloBoton;
                         
                     }
                 }
@@ -537,18 +520,16 @@
         }
 
         .tituloLemaEmpresa{
-            font-style: italic; /*clase .lemaEmpresa*/
-            font-weight: bold;
-            text-align: end;
+            @include cajaLema;
 
             h1{
                 text-align: end;
-                font-size: 25px;
+                font-size: $sizeEncabezado;
                 color: $colorLema;
             }
             
             .lemaEmpresa{
-                font-style: italic; /*clase .lemaEmpresa*/
+                font-style: italic; 
                 font-weight: bold;
                 color: $colorLema;
                 text-align: end;
@@ -602,11 +583,17 @@
 
         .logoMenu{
             @include flexColumn;
-            margin-top: 0px;
-            margin-bottom: 5rem;
+            @if $vista == mobile {
+                @include logoMenu;
+            } @else if $vista == tablet{
+                @include logoMenu600;
+            } @else if $vista == desktop{
+                @include logoMenu1024;
+            }
+
 
             .logo{
-                text-align: center; /*clase .logo*/
+                text-align: center; 
 
 
             
@@ -634,16 +621,7 @@
                             }
                         
                     .botonNavPrincipal{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 1.5rem;
-                        background-color: rgb(17, 18, 19);
-                        border: 2px solid gray;
-                        border-radius: 100px;
-                        padding: 10px;
-                        &:hover{
-                            color: white;                    
-                                }
+                        @include estiloBoton;
                         
                     }
                 }
@@ -651,12 +629,11 @@
         }
 
         .tituloLemaEmpresa{
-            font-weight: bold;
-            text-align: end;
+            @include cajaLema;
 
             h1{
                 text-align: end;
-                font-size: 25px;
+                font-size: $sizeEncabezado;
                 color: $colorLema;
             }
             
@@ -709,14 +686,21 @@
         background-position: center;
         background-size: 550px 700px;
         
+        
 
         .logoMenu{
             @include flexColumn;
-            margin-top: 0px;
-            margin-bottom: 5rem;
+            @if $vista == mobile {
+                @include logoMenu;
+            } @else if $vista == tablet{
+                @include logoMenu600;
+            } @else if $vista == desktop{
+                @include logoMenu1024;
+            }
+  
 
             .logo{
-                text-align: center; /*clase .logo*/
+                text-align: center; 
             
                 img{
                 &:hover{
@@ -742,17 +726,7 @@
                             }
                         
                     .botonNavPrincipal{
-                        text-decoration: none;
-                        color: white;
-                        font-size: 1.5rem;
-                        background-color: rgb(17, 18, 19);
-                        border: 2px solid gray;
-                        border-radius: 100px;
-                        padding: 10px;
-                        &:hover{
-                            color: white;                    
-                                }
-                        
+                        @include estiloBoton;
                     }
                 }
             }
@@ -760,18 +734,16 @@
         }
 
         .tituloLemaEmpresa{
-            font-weight: bold;
-            text-align: end;
-            margin-bottom: 50px;
+            @include cajaLema;
 
             h1{
                 text-align: end;
-                font-size: 25px;
+                font-size: $sizeEncabezado;
                 color: $colorLema;
             }
             
             .lemaEmpresa{
-                font-style: italic; /*clase .lemaEmpresa*/
+                font-style: italic; 
                 font-weight: bold;
                 color: $colorLema;
                 text-align: end;
@@ -817,7 +789,12 @@
 
 
 }
+
+//estilos para vista tablet
+
 @import "scss/utilities/estilos600";
+
+//estilos para vista desktop
 
 @import "scss/utilities/estilos1024";
 

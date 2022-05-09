@@ -1,12 +1,47 @@
+
+//aplicar flex row
+
 @mixin flexRow{
     display: flex;
     flex-direction: row;
 };
 
+//aplicar flex column
+
 @mixin flexColumn{
     display: flex;
     flex-direction: column;
 };
+
+//estilo caja lema de la empresa segunl vista
+//mobile
+@mixin cajaLema{ 
+    font-style: italic;
+    font-weight: bold;
+    text-align: end;
+}
+
+//tablet
+@mixin cajaLema600{
+    font-style: italic;
+    font-size: 15px;
+    text-align: end;
+    margin-bottom: 100px;
+    margin-right: 30px;
+}
+
+//desktop
+@mixin cajaLema1024{
+    font-style: italic;
+    font-size: 15px;
+    text-align: end;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+
+
+//estilo de caja contenedora de informacion en seccion Sobre Nosotros
 
 @mixin baseCajaSobreNosotros {
     margin: 30px 30px 30px 30px;
@@ -21,9 +56,79 @@
 };
 
 
+// estilo de boton principal
+//vista mobile
+@mixin estiloBoton {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(17, 18, 19);
+    border: 2px solid gray;
+    border-radius: 100px;
+    padding: 10px;
+    &:hover{
+        color: white;                    
+    }    
+}
+
+//vista tablet
+@mixin estiloBoton600{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    background-color: rgb(17, 18, 19);
+    border: 2px gray solid;
+    border-radius: 100px;
+    padding: 5px;
+    &:hover{
+        color: white;                    
+    }
+                            
+}
+
+//vista desktop
+@mixin estiloBoton1024{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    background-color: rgb(17, 18, 19);
+    border-radius: 100px;
+    padding: 10px;
+    &:hover{
+            color: white;                    
+    }
+}
+
+//estilo de la caja contendeora del logo y menu segun la vista
+//vista mobile
 
 
- 
+@mixin logoMenu{
+    margin-top: 0px;
+    margin-bottom: 5rem;
+    height: 30rem;
+}
+
+//vista tablet
+@mixin logoMenu600{
+    align-items: center;
+    align-content: center;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 500px;
+}
+
+//vista desktop
+@mixin logoMenu1024{
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 15px;
+}
+
+
+
+
+//fotos de fondo para los encabezados segun la seccion
 
 $index: (
     imgIndex: url('../img/amolado.jpg'),
