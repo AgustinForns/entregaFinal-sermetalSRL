@@ -37,9 +37,7 @@ $vista: "mobile";
 
         .logoMenu{
             @include flexColumn;
-           /*  margin-top: 0px;
-            margin-bottom: 5rem;
-            height: 30rem; */ 
+        
             @if $vista == mobile {
                 @include logoMenu;
             } @else if $vista == tablet{
@@ -55,6 +53,9 @@ $vista: "mobile";
                 text-align: center; /*clase .logo*/
             
                 img{
+                width: 300px;
+                height: 40px;
+                
                 &:hover{
                     transform: scale(1.05);
                     }
@@ -162,12 +163,12 @@ $vista: "mobile";
         .sectionNoticias{
 
             @include flexColumn;
-            background-image: linear-gradient(to left, rgb(59, 58, 78), rgb(139, 151, 219));
+            background-image: linear-gradient(to left, $colorNoticias1, $colorNoticias2);
             padding: 0px 20px 20px 20px;
 
             .noticias{
                 text-align: center;
-                margin: 50px 10px 10px 10px;
+                margin: 50px 10px 10px 10px; 
                 padding: 10px;
             }
 

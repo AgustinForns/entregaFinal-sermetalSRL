@@ -572,8 +572,10 @@ $vista: tablet;
                     @include logoMenu;
                 } @else if $vista == tablet{
                     @include logoMenu600;
+                    
                 } @else if $vista == desktop{
                     @include logoMenu1024;
+                    padding-bottom: 50px;
                 }
     
 
