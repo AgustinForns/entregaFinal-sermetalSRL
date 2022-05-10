@@ -48,7 +48,7 @@ $vista: desktop;
                 
 
                 .logo{
-                    text-align: center; /*clase .logo*/
+                    text-align: center; 
 
                     img{
                         width: 150px;
@@ -94,7 +94,7 @@ $vista: desktop;
                 }
                 
                 .lemaEmpresa{
-                    font-style: italic; /*clase .lemaEmpresa*/
+                    font-style: italic; 
                     font-weight: bold;
                     color: $colorLema;
                     text-align: end;
@@ -315,7 +315,7 @@ $vista: desktop;
                 
 
                 .logo{
-                    text-align: center; /*clase .logo*/
+                    text-align: center; 
 
                     img{
                         width: 150px;
@@ -362,7 +362,7 @@ $vista: desktop;
                 }
                 
                 .lemaEmpresa{
-                    font-style: italic; /*clase .lemaEmpresa*/
+                    font-style: italic; 
                     font-weight: bold;
                     color: $colorLema;
                     text-align: end;
@@ -458,7 +458,7 @@ $vista: desktop;
                 
 
                 .logo{
-                    text-align: center; /*clase .logo*/
+                    text-align: center; 
 
                     img{
                         width: 150px;
@@ -504,7 +504,7 @@ $vista: desktop;
                 }
                 
                 .lemaEmpresa{
-                    font-style: italic; /*clase .lemaEmpresa*/
+                    font-style: italic; 
                     font-weight: bold;
                     color: $colorLema;
                     text-align: end;
@@ -563,12 +563,13 @@ $vista: desktop;
                     @include logoMenu600;
                 } @else if $vista == desktop{
                     @include logoMenu1024;
+                    margin-bottom: 650px;
                 }
     
                 
 
                 .logo{
-                    text-align: center; /*clase .logo*/
+                    text-align: center; 
 
                     img{
                         width: 150px;
@@ -614,7 +615,7 @@ $vista: desktop;
                 }
                 
                 .lemaEmpresa{
-                    font-style: italic; /*clase .lemaEmpresa*/
+                    font-style: italic; 
                     font-weight: bold;
                     color: $colorLema;
                     text-align: end;
@@ -677,7 +678,7 @@ $vista: desktop;
                 
 
                 .logo{
-                    text-align: center; /*clase .logo*/
+                    text-align: center; 
 
                     img{
                         width: 150px;
@@ -724,7 +725,7 @@ $vista: desktop;
                 }
                 
                 .lemaEmpresa{
-                    font-style: italic; /*clase .lemaEmpresa*/
+                    font-style: italic; 
                     font-weight: bold;
                     color: $colorLema;
                     text-align: end;

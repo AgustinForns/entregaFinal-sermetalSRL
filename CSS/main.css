@@ -226,8 +226,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerSobreNosotros .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -266,7 +265,6 @@
           color: azure; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -330,8 +328,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerServicios .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -370,7 +367,6 @@
           color: azure; }
         .contenedor .headerServicios .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -408,8 +404,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerIndustrias .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -448,7 +443,6 @@
           color: azure; }
         .contenedor .headerIndustrias .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -486,8 +480,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerContacto .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -526,7 +519,6 @@
           color: azure; }
         .contenedor .headerContacto .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -598,8 +590,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor header .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor header .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -637,7 +628,6 @@
           color: azure; }
         .contenedor header .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -766,8 +756,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerSobreNosotros .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -805,7 +794,6 @@
           color: azure; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -867,8 +855,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerServicios .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -906,7 +893,6 @@
           color: azure; }
         .contenedor .headerServicios .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -940,10 +926,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
-        margin-top: 15px; }
+        margin-top: 15px;
+        margin-bottom: 650px; }
         .contenedor .headerIndustrias .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -981,7 +967,6 @@
           color: azure; }
         .contenedor .headerIndustrias .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -1016,8 +1001,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerContacto .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -1055,7 +1039,6 @@
           color: azure; }
         .contenedor .headerContacto .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -1792,8 +1775,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerSobreNosotros .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -1832,7 +1814,6 @@
           color: azure; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -1896,8 +1877,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerServicios .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -1936,7 +1916,6 @@
           color: azure; }
         .contenedor .headerServicios .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -1974,8 +1953,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerIndustrias .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2014,7 +1992,6 @@
           color: azure; }
         .contenedor .headerIndustrias .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2052,8 +2029,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor .headerContacto .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2092,7 +2068,6 @@
           color: azure; }
         .contenedor .headerContacto .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2164,8 +2139,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor header .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor header .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2203,7 +2177,6 @@
           color: azure; }
         .contenedor header .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2332,8 +2305,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerSobreNosotros .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2371,7 +2343,6 @@
           color: azure; }
         .contenedor .headerSobreNosotros .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2433,8 +2404,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerServicios .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2472,7 +2442,6 @@
           color: azure; }
         .contenedor .headerServicios .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2506,10 +2475,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
-        margin-top: 15px; }
+        margin-top: 15px;
+        margin-bottom: 650px; }
         .contenedor .headerIndustrias .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2547,7 +2516,6 @@
           color: azure; }
         .contenedor .headerIndustrias .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -2582,8 +2550,7 @@
         align-items: baseline;
         margin-top: 15px; }
         .contenedor .headerContacto .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -2621,7 +2588,6 @@
           color: azure; }
         .contenedor .headerContacto .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
