@@ -46,8 +46,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor header .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor header .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -86,7 +85,6 @@
           color: azure; }
         .contenedor header .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
@@ -1102,8 +1100,7 @@
       margin-bottom: 5rem;
       height: 30rem; }
       .contenedor header .logoMenu .logo {
-        text-align: center;
-        /*clase .logo*/ }
+        text-align: center; }
         .contenedor header .logoMenu .logo img {
           width: 300px;
           height: 40px; }
@@ -1365,8 +1362,7 @@
       margin-bottom: 5rem;
       height: 30rem; }
       .contenedor .headerServicios .logoMenu .logo {
-        text-align: center;
-        /*clase .logo*/ }
+        text-align: center; }
         .contenedor .headerServicios .logoMenu .logo img:hover {
           transform: scale(1.05); }
       .contenedor .headerServicios .logoMenu .menu {
@@ -1595,8 +1591,7 @@
         margin-top: 0px;
         margin-bottom: 500px; }
         .contenedor header .logoMenu .logo {
-          text-align: center;
-          /*clase .logo*/ }
+          text-align: center; }
           .contenedor header .logoMenu .logo img {
             width: 150px;
             height: 40px; }
@@ -1635,7 +1630,6 @@
           color: azure; }
         .contenedor header .tituloLemaEmpresa .lemaEmpresa {
           font-style: italic;
-          /*clase .lemaEmpresa*/
           font-weight: bold;
           color: azure;
           text-align: end; }
