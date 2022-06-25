@@ -48,7 +48,7 @@
         .contenedor header .logoMenu .logo {
           text-align: center; }
           .contenedor header .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor header .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -226,7 +226,7 @@
         .contenedor .headerSobreNosotros .logoMenu .logo {
           text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerSobreNosotros .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -328,7 +328,7 @@
         .contenedor .headerServicios .logoMenu .logo {
           text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerServicios .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -404,7 +404,7 @@
         .contenedor .headerIndustrias .logoMenu .logo {
           text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerIndustrias .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -480,7 +480,7 @@
         .contenedor .headerContacto .logoMenu .logo {
           text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerContacto .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -590,10 +590,10 @@
         .contenedor header .logoMenu .logo {
           text-align: center; }
           .contenedor header .logoMenu .logo img {
-            width: 150px;
+            width: 250px;
             height: 40px; }
             .contenedor header .logoMenu .logo img:hover {
-              transform: scale(1.3) translateX(40px); }
+              transform: scale(1.2) translateX(20px); }
         .contenedor header .logoMenu .menu {
           padding: 10px;
           margin: 1px 15px 50px 10px;
@@ -1283,8 +1283,11 @@
       height: 30rem; }
       .contenedor .headerSobreNosotros .logoMenu .logo {
         text-align: center; }
-        .contenedor .headerSobreNosotros .logoMenu .logo img:hover {
-          transform: scale(1.05); }
+        .contenedor .headerSobreNosotros .logoMenu .logo img {
+          width: 300px;
+          height: 40px; }
+          .contenedor .headerSobreNosotros .logoMenu .logo img:hover {
+            transform: scale(1.05); }
       .contenedor .headerSobreNosotros .logoMenu .menu {
         padding: 10px;
         margin: 1px 15px 50px 10px;
@@ -1363,8 +1366,11 @@
       height: 30rem; }
       .contenedor .headerServicios .logoMenu .logo {
         text-align: center; }
-        .contenedor .headerServicios .logoMenu .logo img:hover {
-          transform: scale(1.05); }
+        .contenedor .headerServicios .logoMenu .logo img {
+          width: 300px;
+          height: 40px; }
+          .contenedor .headerServicios .logoMenu .logo img:hover {
+            transform: scale(1.05); }
       .contenedor .headerServicios .logoMenu .menu {
         padding: 10px;
         margin: 1px 15px 50px 10px;
@@ -1427,8 +1433,11 @@
       height: 30rem; }
       .contenedor .headerIndustrias .logoMenu .logo {
         text-align: center; }
-        .contenedor .headerIndustrias .logoMenu .logo img:hover {
-          transform: scale(1.05); }
+        .contenedor .headerIndustrias .logoMenu .logo img {
+          width: 300px;
+          height: 40px; }
+          .contenedor .headerIndustrias .logoMenu .logo img:hover {
+            transform: scale(1.05); }
       .contenedor .headerIndustrias .logoMenu .menu {
         padding: 10px;
         margin: 1px 15px 50px 10px;
@@ -1492,8 +1501,11 @@
       height: 30rem; }
       .contenedor .headerContacto .logoMenu .logo {
         text-align: center; }
-        .contenedor .headerContacto .logoMenu .logo img:hover {
-          transform: scale(1.05); }
+        .contenedor .headerContacto .logoMenu .logo img {
+          width: 300px;
+          height: 40px; }
+          .contenedor .headerContacto .logoMenu .logo img:hover {
+            transform: scale(1.05); }
       .contenedor .headerContacto .logoMenu .menu {
         padding: 10px;
         margin: 1px 15px 50px 10px;
@@ -1593,7 +1605,7 @@
         .contenedor header .logoMenu .logo {
           text-align: center; }
           .contenedor header .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor header .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -1771,7 +1783,7 @@
         .contenedor .headerSobreNosotros .logoMenu .logo {
           text-align: center; }
           .contenedor .headerSobreNosotros .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerSobreNosotros .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -1873,7 +1885,7 @@
         .contenedor .headerServicios .logoMenu .logo {
           text-align: center; }
           .contenedor .headerServicios .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerServicios .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -1949,7 +1961,7 @@
         .contenedor .headerIndustrias .logoMenu .logo {
           text-align: center; }
           .contenedor .headerIndustrias .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerIndustrias .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -2025,7 +2037,7 @@
         .contenedor .headerContacto .logoMenu .logo {
           text-align: center; }
           .contenedor .headerContacto .logoMenu .logo img {
-            width: 150px;
+            width: 300px;
             height: 40px; }
             .contenedor .headerContacto .logoMenu .logo img:hover {
               transform: scale(1.3); }
@@ -2135,10 +2147,10 @@
         .contenedor header .logoMenu .logo {
           text-align: center; }
           .contenedor header .logoMenu .logo img {
-            width: 150px;
+            width: 250px;
             height: 40px; }
             .contenedor header .logoMenu .logo img:hover {
-              transform: scale(1.3) translateX(40px); }
+              transform: scale(1.2) translateX(20px); }
         .contenedor header .logoMenu .menu {
           padding: 10px;
           margin: 1px 15px 50px 10px;

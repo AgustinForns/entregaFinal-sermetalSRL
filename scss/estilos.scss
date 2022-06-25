@@ -51,15 +51,10 @@ $vista: "mobile";
 
             .logo{
                 text-align: center; 
-            
                 img{
-                width: 300px;
-                height: 40px;
-                
-                &:hover{
-                    transform: scale(1.05);
-                    }
+                    @include logo;
                 }
+                   
             }
         
 
@@ -353,13 +348,8 @@ $vista: "mobile";
 
             .logo{
                 text-align: center; 
-
-
-            
                 img{
-                &:hover{
-                    transform: scale(1.05);
-                    }
+                @include logo;        
                 }
             }
         
@@ -490,9 +480,7 @@ $vista: "mobile";
 
             
                 img{
-                &:hover{
-                    transform: scale(1.05);
-                    }
+                    @include logo;                       
                 }
             }
         
@@ -599,9 +587,7 @@ $vista: "mobile";
 
             
                 img{
-                &:hover{
-                    transform: scale(1.05);
-                    }
+                    @include logo;                       
                 }
             }
         
@@ -704,9 +690,7 @@ $vista: "mobile";
                 text-align: center; 
             
                 img{
-                &:hover{
-                    transform: scale(1.05);
-                    }
+                    @include logo;                       
                 }
             }
         

@@ -45,14 +45,9 @@ $vista: tablet;
 
                 .logo{
                     text-align: center; 
-                
-                    img{
-                    width: 150px;
-                    height: 40px;
                     
-                    &:hover{
-                        transform: scale(1.3);
-                        }
+                    img{
+                        @include logo600;
                     }
                 }
             
@@ -320,19 +315,11 @@ $vista: tablet;
     
 
                 .logo{
-                    text-align: center; 
-
-                    
-                
+                    text-align: center;   
                     img{
-                        width: 150px;
-                        height: 40px;
-                        &:hover{
-                            transform: scale(1.3);
-                            }
+                        @include logo600;
                     }
-                }
-            
+                }    
 
                 .menu{
                     padding: 10px;
@@ -470,12 +457,7 @@ $vista: tablet;
                     text-align: center; 
                 
                     img{
-                    width: 150px;
-                    height: 40px;
-                    
-                    &:hover{
-                        transform: scale(1.3);
-                        }
+                        @include logo600;
                     }
                 }
             
@@ -583,12 +565,7 @@ $vista: tablet;
                     text-align: center; 
                 
                     img{
-                    width: 150px;
-                    height: 40px;
-                    
-                    &:hover{
-                        transform: scale(1.3);
-                        }
+                        @include logo600;
                     }
                 }
             
@@ -695,11 +672,7 @@ $vista: tablet;
                     text-align: center; 
                 
                     img{
-                        width: 150px;
-                        height: 40px;
-                        &:hover{
-                            transform: scale(1.3);
-                            }
+                        @include logo600;
                     }
                 }
             
