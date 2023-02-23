@@ -11,9 +11,7 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-areas: "header header header header"
- "espacioBlanco1 main main espacioBlanco2"
- "footer footer footer footer";
+    grid-template-areas: "header header header header" "espacioBlanco1 main main espacioBlanco2" "footer footer footer footer";
     justify-content: center;
     align-items: center;
     background-color: #bdb8b8;
@@ -57,7 +55,7 @@
         .contenedor header .logoMenu .menu {
           padding: 10px;
           margin: 1px 15px 50px 10px;
-           }
+          text-align: start; }
           .contenedor header .logoMenu .menu ul li {
             margin: 5px;
             list-style: none;
@@ -555,9 +553,7 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-areas: "header header header header"
- "espacioBlanco1 main main espacioBlanco2"
- "footer footer footer footer";
+    grid-template-areas: "header header header header" "espacioBlanco1 main main espacioBlanco2" "footer footer footer footer";
     justify-content: center;
     align-items: center;
     background-color: #bdb8b8;
@@ -1070,9 +1066,7 @@
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 5% 45% 45% 5%;
-  grid-template-areas: "header header header header"
- "espacioBlanco1 main main espacioBlanco2"
- "footer footer footer footer";
+  grid-template-areas: "header header header header" "espacioBlanco1 main main espacioBlanco2" "footer footer footer footer";
   justify-content: center;
   align-items: center;
   background-color: #bdb8b8;
@@ -1562,9 +1556,7 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-areas: "header header header header"
- "espacioBlanco1 main main espacioBlanco2"
- "footer footer footer footer";
+    grid-template-areas: "header header header header" "espacioBlanco1 main main espacioBlanco2" "footer footer footer footer";
     justify-content: center;
     align-items: center;
     background-color: #bdb8b8;
@@ -2106,9 +2098,7 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 5% 45% 45% 5%;
-    grid-template-areas: "header header header header"
- "espacioBlanco1 main main espacioBlanco2"
- "footer footer footer footer";
+    grid-template-areas: "header header header header" "espacioBlanco1 main main espacioBlanco2" "footer footer footer footer";
     justify-content: center;
     align-items: center;
     background-color: #bdb8b8;
